@@ -1,0 +1,2 @@
+# Sudoku
+Primer proyecto paradigmas
