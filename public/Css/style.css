@@ -1,0 +1,27 @@
+.conta{  width: 900px; height: 100%; padding: 10px; clear: both; margin: 1% ;position:center;}
+
+.logo{ position: center; background-image: url(logo2.jpg); background-repeat: no-repeat;background-position: absolute; background-size: contain; width: 300px; height: 75px;}
+
+.tab-content{ background-color: #F9ECFD;}
+
+.page-header{background-color: #ffffff; -webkit-box-shadow:inset 4px 4px 6px 6px #121313; box-shadow:inset 4px 4px 6px 6px #121313;}
+
+body{ background-color: #F5DAFE}
+
+.borderlog{ -webkit-box-shadow: 7px 6px 7px 6px #379C13; box-shadow: 6px 6px 6px 6px #DCFCFD;}
+
+#IDENT{
+    display:inline-table;
+    width:50%;
+    
+}
+obligatorio{
+    color:red;
+}
+body{
+    margin-bottom:10%;
+}
+
+.cell{
+background-color:#E6E6E6;
+}

@@ -1,0 +1,26 @@
+const initEventos=()=>{
+    $("#opcJugar").click(e=>{
+        $("#divJugar").show();
+        $("#divReglas").hide();
+        $("#divOpciones").hide();
+        $("#divAboutus").hide();
+   })
+   $("#opcReglas").click(e=>{
+        $("#divJugar").hide();
+        $("#divReglas").show();
+        $("#divOpciones").hide();
+        $("#divAboutus").hide();
+   })
+   $("#opcAboutus").click(e=>{
+        $("#divJugar").hide();
+        $("#divReglas").hide();
+        $("#divOpciones").hide();
+        $("#divAboutus").show();
+   })
+   $("#opcOpciones").click(e=>{
+        $("#divJugar").hide();
+        $("#divReglas").hide();
+        $("#divOpciones").show();
+        $("#divAboutus").hide();
+   })
+}
