@@ -14,6 +14,7 @@ const express    = require('express'),
       fs         = require('fs'),
       mongodb    = require('mongodb'),
       sudoku     = require("./public/js/Sudoku");
+	  generador     = require("./public/js/Generador");
       
 console.log("require's: ok");
 /*************************************************/

@@ -1,6 +1,6 @@
-const {Util} = require('./Util')
+const {Util} = require('./Util');
 const {Cuadricula} = require('./Cuadricula')
-class Sudoku{
+class Generador{
 	constructor(){
 		this.dimensiones = 3;
 		this.casillas = Util.genArr(1,9);
@@ -12,7 +12,9 @@ class Sudoku{
 		this.mapa = this.casillas.map(
 			(e,i) => e = Util.genArr(1,9,false)
 		);
-		
+		this.init();
+		this.id = "?";//agregar a la hora de guardar
+		this.ip = "?"; // obtener del request a la hora de guardar
 	}
 	init(){
 		this.llenar();
@@ -148,5 +150,5 @@ class Sudoku{
 
 }
 module.exports = {
-	Sudoku
+	Generador
 }
